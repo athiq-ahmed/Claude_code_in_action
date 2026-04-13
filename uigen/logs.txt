@@ -1,0 +1,48 @@
+
+> uigen@0.1.0 dev
+> next dev --turbopack
+
+ ⚠ Port 3000 is in use by process 39908, using available port 3004 instead.
+   ▲ Next.js 15.5.14 (Turbopack)
+   - Local:        http://localhost:3004
+   - Network:      http://192.168.1.6:3004
+   - Environments: .env
+
+ ✓ Starting...
+ ○ Compiling middleware ...
+ ✓ Compiled middleware in 606ms
+ ✓ Ready in 3.1s
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 3s
+No ANTHROPIC_API_KEY found, using mock provider
+AI SDK Warning System: To turn off warning logging, set the AI_SDK_LOG_WARNINGS global to false.
+AI SDK Warning (mock / mock-claude-sonnet-4-0): The feature "specificationVersion" is used in a compatibility mode. Using v2 specification compatibility mode. Some features may not be available.
+[Error: failed to pipe response] {
+  [cause]: [TypeError: Cannot read properties of undefined (reading 'length')]
+}
+ POST /api/chat 500 in 4087ms
+No ANTHROPIC_API_KEY found, using mock provider
+AI SDK Warning (mock / mock-claude-sonnet-4-0): The feature "specificationVersion" is used in a compatibility mode. Using v2 specification compatibility mode. Some features may not be available.
+[Error: failed to pipe response] {
+  [cause]: [TypeError: Cannot read properties of undefined (reading 'length')]
+}
+ POST /api/chat 500 in 694ms
+No ANTHROPIC_API_KEY found, using mock provider
+AI SDK Warning System: To turn off warning logging, set the AI_SDK_LOG_WARNINGS global to false.
+AI SDK Warning (mock / mock-claude-sonnet-4-0): The feature "specificationVersion" is used in a compatibility mode. Using v2 specification compatibility mode. Some features may not be available.
+[Error: failed to pipe response] {
+  [cause]: [Error: failed to write chunk to response] {
+    [cause]: [TypeError: The "chunk" argument must be of type string or an instanc ○ Compiling / ...
+ ✓ Compiled / in 95.1s
+ GET / 200 in 104322ms
+ GET / 200 in 2806ms
+ GET / 200 in 3470ms
+ GET / 200 in 2666ms
+ GET / 200 in 1499ms
+ ○ Compiling /favicon.ico ...
+ GET / 200 in 1786ms
+ ✓ Compiled /favicon.ico in 13.3s
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 13957ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 4265ms
+ GET / 200 in 1701ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 2985ms
